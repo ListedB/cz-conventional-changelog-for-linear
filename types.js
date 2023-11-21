@@ -1,41 +1,51 @@
 module.exports = {
-  feat: {
-    description: 'A new feature',
-    title: 'Features'
+  "feat": {
+    "description": "A new feature",
+      "title": "Features"
   },
-  fix: {
-    description: 'A bug fix',
-    title: 'Bug Fixes'
+  "fix": {
+    "description": "A bug fix",
+      "title": "Bug Fixes"
   },
-  docs: {
-    description: 'Documentation only changes',
-    title: 'Documentation'
+  "improvement": {
+    "description": "An improvement to a current feature",
+      "title": "Improvements"
   },
-  refactor: {
-    description:
-      'A code change that neither fixes a bug nor adds a feature (formatting, performance improvement, etc)',
-    title: 'Code Refactoring'
+  "docs": {
+    "description": "Documentation only changes",
+      "title": "Documentation"
   },
-  test: {
-    description: 'Adding missing tests or correcting existing tests',
-    title: 'Tests'
+  "style": {
+    "description": "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)",
+      "title": "Styles"
   },
-  build: {
-    description:
-      'Changes that affect the build system or external dependencies (npm, webpack, typescript)',
-    title: 'Builds'
+  "refactor": {
+    "description": "A code change that neither fixes a bug nor adds a feature",
+      "title": "Code Refactoring"
   },
-  ci: {
-    description:
-      'Changes to our CI configuration files and scripts (NOTE: Does not bump the version)',
-    title: 'Continuous Integrations'
+  "perf": {
+    "description": "A code change that improves performance",
+      "title": "Performance Improvements"
   },
-  chore: {
-    description: "Other changes that don't modify src or test files",
-    title: 'Chores'
+  "test": {
+    "description": "Adding missing tests or correcting existing tests",
+      "title": "Tests"
   },
-  revert: {
-    description: 'Reverts a previous commit',
-    title: 'Reverts'
+  "build": {
+    "description": "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm)",
+      "title": "Builds"
+  },
+  "ci": {
+    "description": "Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs)",
+      "title": "Continuous Integrations"
+  },
+  "chore": {
+    "description": "Other changes that don't modify src or test files",
+      "title": "Chores"
+  },
+  "revert": {
+    "description": "Reverts a previous commit",
+      "title": "Reverts"
   }
 };
+

@@ -11,10 +11,10 @@ module.exports = {
   maxHeaderWidth: 72,
   minHeaderWidth: 2,
   maxLineWidth: 100,
-  jiraPrefix: 'DAZ',
-  jiraOptional: false,
+  jiraPrefix: 'ENG',
+  jiraOptional: true,
   jiraLocation: 'pre-description',
-  jiraPrepend: '',
-  jiraAppend: '',
+  jiraPrepend: '[',
+  jiraAppend: ']',
   exclamationMark: false
 };
