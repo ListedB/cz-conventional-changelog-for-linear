@@ -131,7 +131,7 @@ module.exports = function(options) {
           type: 'input',
           name: 'jira',
           message:
-            'Enter JIRA issue (' +
+            'Enter Linear issue (' +
             getFromOptionsOrDefaults('jiraPrefix') +
             '-12345)' +
             (options.jiraOptional ? ' (optional)' : '') +

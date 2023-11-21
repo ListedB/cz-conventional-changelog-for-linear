@@ -930,11 +930,11 @@ describe('commitlint config header-max-length', function() {
 
 describe('questions', function() {
   it('default jira question', function() {
-    expect(questionPrompt('jira')).to.be.eq('Enter JIRA issue (DAZ-12345):');
+    expect(questionPrompt('jira')).to.be.eq('Enter Linear issue (DAZ-12345):');
   });
   it('optional jira question', function() {
     expect(questionPrompt('jira', [], { jiraOptional: true })).to.be.eq(
-      'Enter JIRA issue (DAZ-12345) (optional):'
+      'Enter Linear issue (DAZ-12345) (optional):'
     );
   });
   it('scope with list', function() {
