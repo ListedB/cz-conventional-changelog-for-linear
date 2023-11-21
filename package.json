@@ -48,8 +48,10 @@
   "config": {
     "commitizen": {
       "path": "./index.js",
-      "jiraMode": false,
-      "skipScope": true
+      "skipScope": true,
+      "jiraPrefix": "ENG",
+      "jiraPrepend": "[",
+      "jiraAppend": "]"
     }
   },
   "publishConfig": {
