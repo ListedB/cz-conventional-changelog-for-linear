@@ -36,7 +36,6 @@
     "word-wrap": "^1.0.3"
   },
   "devDependencies": {
-    "@listedb/semantic-release-config": "^1.2.0",
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
