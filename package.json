@@ -1,6 +1,6 @@
 {
   "name": "@listedb/cz-conventional-changelog-for-linear",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Commitizen adapter following the conventional-changelog format and also asking for Linear issues.",
   "main": "index.js",
   "scripts": {
