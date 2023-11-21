@@ -1,23 +1,21 @@
-# cz-conventional-changelog-for-jira
+# cz-conventional-changelog-for-linear
 
-Part of the [commitizen/cz-cli](https://github.com/commitizen/cz-cli) family. Prompts for [conventional changelog](https://github.com/conventional-changelog/conventional-changelog) standard and also prompts for a mandatory JIRA issue.
+This is a fork of [cz-conventional-changelog-for-jira](https://github.com/digitalroute/cz-conventional-changelog-for-jira) with some minor changes to make it work with Linear.
 
-[![npm version](https://img.shields.io/npm/v/@digitalroute/cz-conventional-changelog-for-jira.svg?style=flat-square)](https://www.npmjs.org/package/@digitalroute/cz-conventional-changelog-for-jira)
-[![npm downloads](https://img.shields.io/npm/dm/@digitalroute/cz-conventional-changelog-for-jira.svg?style=flat-square)](http://npm-stat.com/charts.html?package=@digitalroute/cz-conventional-changelog-for-jira)
-[![Build Status](https://img.shields.io/travis/digitalroute/cz-conventional-changelog-for-jira.svg?style=flat-square)](https://travis-ci.org/digitalroute/cz-conventional-changelog-for-jira)
+Part of the [commitizen/cz-cli](https://github.com/commitizen/cz-cli) family. Prompts for [conventional changelog](https://github.com/conventional-changelog/conventional-changelog) standard and also prompts for a mandatory Linear issue.
 
 ## Features
 
 - Works seamlessly with semantic-release 🚀
-- Works seamlessly with Jira smart commits
-- Automatically detects the Jira issue from the branch name
+- Works seamlessly with Linear smart commits
+- Automatically detects the Linear issue from the branch name
 
 ## Quickstart
 
 ### Installation
 
 ```bash
-npm install commitizen @digitalroute/cz-conventional-changelog-for-jira
+yarn add commitizen @listedb/cz-conventional-changelog-for-linear --dev
 ```
 
 and then add the following to package.json:
@@ -29,7 +27,7 @@ and then add the following to package.json:
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/@digitalroute/cz-conventional-changelog-for-jira"
+      "path": "./node_modules/@listedb/cz-conventional-changelog-for-linear"
     }
   }
 }
@@ -110,9 +108,9 @@ Here is an example:
 **./index.js**
 
 ```javascript
-const custom = require('@digitalroute/cz-conventional-changelog-for-jira/configurable');
+const custom = require('@listedb/cz-conventional-changelog-for-linear/configurable');
 // You can do this optionally if you want to extend the commit types
-const defaultTypes = require('@digitalroute/cz-conventional-changelog-for-jira/types');
+const defaultTypes = require('@listedb/cz-conventional-changelog-for-linear/types');
 
 module.exports = custom({
   types: {

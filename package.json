@@ -1,7 +1,7 @@
 {
-  "name": "@digitalroute/cz-conventional-changelog-for-jira",
-  "version": "0.0.0-semantically-released",
-  "description": "Commitizen adapter following the conventional-changelog format and also asking for JIRA issue.",
+  "name": "@listedb/cz-conventional-changelog-for-linear",
+  "version": "1.0.0",
+  "description": "Commitizen adapter following the conventional-changelog format and also asking for Linear issues.",
   "main": "index.js",
   "scripts": {
     "commit": "git-cz",
@@ -9,16 +9,16 @@
     "format": "prettier --write *.js",
     "semantic-release": "semantic-release"
   },
-  "homepage": "https://github.com/digitalroute/cz-conventional-changelog-for-jira",
+  "homepage": "https://github.com/ListedB/cz-conventional-changelog-for-linear",
   "repository": {
     "type": "git",
-    "url": "https://github.com/digitalroute/cz-conventional-changelog-for-jira.git"
+    "url": "https://github.com/ListedB/cz-conventional-changelog-for-linear.git"
   },
   "engineStrict": true,
   "engines": {
     "node": ">= 10"
   },
-  "author": "Marcus Johansson <polarn@gmail.com>",
+  "author": "Taj English<taj.english@listedb.com>",
   "license": "MIT",
   "dependencies": {
     "boxen": "^5.1.2",
