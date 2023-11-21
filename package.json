@@ -51,7 +51,8 @@
       "skipScope": true,
       "jiraPrefix": "ENG",
       "jiraPrepend": "[",
-      "jiraAppend": "]"
+      "jiraAppend": "]",
+      "jiraOptional": true
     }
   },
   "publishConfig": {
