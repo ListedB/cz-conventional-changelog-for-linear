@@ -6,6 +6,10 @@
   "scripts": {
     "commit": "git-cz",
     "test": "mocha *.test.js",
+    "prepare": "node -e \"try { require('husky').install() } catch (e) {if (e.code !== 'MODULE_NOT_FOUND') throw e}\"",
+    "post-checkout": "yarn",
+    "post-commit": "git status",
+    "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true",
     "format": "prettier --write *.js",
     "semantic-release": "semantic-release"
   },
@@ -32,10 +36,12 @@
     "word-wrap": "^1.0.3"
   },
   "devDependencies": {
+    "@listedb/semantic-release-config": "^1.2.0",
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.7",
     "chai": "^4.2.0",
     "cosmiconfig": "^5.2.1",
+    "husky": "^8.0.3",
     "mocha": "^10.0.0",
     "mock-require": "^3.0.3",
     "prettier": "^1.15.3",
